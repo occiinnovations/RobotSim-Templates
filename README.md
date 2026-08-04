@@ -1,3 +1,5 @@
+<img width="2022" height="1124" alt="webots-bin_9NY1MoBC8U" src="https://github.com/user-attachments/assets/ad9a33fa-2ae4-463e-8a3e-998f95e5176f" />
+
 # RobotSim-Templates
 
 Universal initialization templates for robot models across simulation environments. 
