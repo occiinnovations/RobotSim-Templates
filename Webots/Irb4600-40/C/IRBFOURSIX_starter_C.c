@@ -12,20 +12,20 @@ int main(int argc, char **argv)
     wb_robot_init();
 
     // Actuators
-    WbDeviceTag ACT1 = wb_robot_get_device("shoulder_pan_joint");
-    WbDeviceTag ACT2 = wb_robot_get_device("elbow_joint");
-    WbDeviceTag ACT3 = wb_robot_get_device("shoulder_lift_joint");
-    WbDeviceTag ACT4 = wb_robot_get_device("wrist_1_joint");
-    WbDeviceTag ACT5 = wb_robot_get_device("wrist_2_joint");
-    WbDeviceTag ACT6 = wb_robot_get_device("wrist_3_joint");
+    WbDeviceTag ACT1 = wb_robot_get_device("A motor");
+    WbDeviceTag ACT2 = wb_robot_get_device("B motor");
+    WbDeviceTag ACT3 = wb_robot_get_device("C motor");
+    WbDeviceTag ACT4 = wb_robot_get_device("D motor");
+    WbDeviceTag ACT5 = wb_robot_get_device("E motor");
+    WbDeviceTag ACT6 = wb_robot_get_device("F motor");
 
     // Position Sensors
-    WbDeviceTag POS1 = wb_robot_get_device("shoulder_pan_joint_sensor");
-    WbDeviceTag POS2 = wb_robot_get_device("elbow_joint_sensor");
-    WbDeviceTag POS3 = wb_robot_get_device("shoulder_lift_joint_sensor");
-    WbDeviceTag POS4 = wb_robot_get_device("wrist_1_joint_sensor");
-    WbDeviceTag POS5 = wb_robot_get_device("wrist_2_joint_sensor");
-    WbDeviceTag POS6 = wb_robot_get_device("wrist_3_joint_sensor");
+    WbDeviceTag POS1 = wb_robot_get_device("A sensor");
+    WbDeviceTag POS2 = wb_robot_get_device("B sensor");
+    WbDeviceTag POS3 = wb_robot_get_device("C sensor");
+    WbDeviceTag POS4 = wb_robot_get_device("D sensor");
+    WbDeviceTag POS5 = wb_robot_get_device("E sensor");
+    WbDeviceTag POS6 = wb_robot_get_device("F sensor");
 
     // Lists
     WbDeviceTag motor_list[] = {ACT1, ACT2, ACT3, ACT4, ACT5, ACT6};
