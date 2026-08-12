@@ -7,15 +7,27 @@ Universal initialization templates for robot models across simulation environmen
 ## Directory Structure
 
 ```text
-StarterTemplates/
+STARTERTEMPLATES/
 └── Webots/
+    ├── Irb4600-40/
+    │   ├── C/
+    │   │   └── IRBFOURSIX_starter_c.c
+    │   ├── C++/
+    │   │   └── IRBFOURSIX_starter_cpp.cpp
+    │   └── Python/
+    │       └── IRBFOURSIX_starter_py.py
     └── Ur10e/
+        ├── C/
+        │   └── URTENe_starter_c.c
         ├── C++/
-        │   └── URTENe_starter_cpp.c++
+        │   └── URTENe_starter_cpp.cpp
+        ├── Java/
+        │   └── URTENe_starter_java.java
+        ├── MATLAB/
+        │   └── URTENe_starter_MLB.m
         └── Python/
-        │     └── URTENe_starter_py.py
-        └── MATLAB/
-              └──URTENe_starter_MLB.m
+            └── URTENe_starter_py.py
+
 ```
 
 ## Template Specification
