@@ -53,6 +53,18 @@ Follow these steps to create a new controller in Webots so that you can copy and
 *   **Check Syntax Errors Always:** Pay close attention to your compiler or console output and always check for syntax errors before running the simulation.
 *   **Rename Class and Function Names:** When using the **MATLAB** or **Java** templates, make sure to rename the main function name (MATLAB) or the public class name (Java) inside the script to match your local filename exactly.
 
+## Roadmap
+
+- [x] Include starter templates for all 5 Languages for included robots (Python, Java, MATLAB, C++, C)
+
+- [ ] Expand the repository to include every significant robot.
+
+- [ ] Add an FK/IK solver template alongside each of the starter templates.
+
+- [ ] Add an OpenCV + NumPy connection template under each of the Python starter template folders.
+
+- [ ] Expand the repository to include versions designed for Unity and Isaac Sim via ROS2.
+
 ## Versions
 
 * MATLAB R2025a
