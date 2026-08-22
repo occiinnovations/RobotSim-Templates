@@ -9,6 +9,7 @@ Universal initialization templates for robot models across simulation environmen
 ```text
 STARTERTEMPLATES/
 └── Webots/
+    ├── Mavic2Pro/ ...
     ├── Irb4600-40/ ...
     └── Ur10e/
         ├── C/
