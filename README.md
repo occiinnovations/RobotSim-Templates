@@ -10,22 +10,29 @@ Universal initialization templates for robot models across simulation environmen
 STARTERTEMPLATES/
 └── Webots/
     ├── Puma560/...
-    │       └── Python/...
-    │       └── Modified_URDF/...       
+    │   └── Python/...
+    │   └── Modified_URDF/...
     ├── Mavic2Pro/ ...
     ├── Irb4600-40/ ...
-    └── Ur10e/
-        ├── C/
-        │   └── URTENe_starter_c.c
-        ├── C++/
-        │   └── URTENe_starter_cpp.cpp
-        ├── Java/
-        │   └── URTENe_starter_java.java
-        ├── MATLAB/
-        │   └── URTENe_starter_MLB.m
+    ├── Ur10e/
+    │   ├── C/
+    │   │   └── URTENe_starter_c.c
+    │   ├── C++/
+    │   │   └── URTENe_starter_cpp.cpp
+    │   ├── Java/
+    │   │   └── URTENe_starter_java.java
+    │   ├── MATLAB/
+    │   │   └── URTENe_starter_MLB.m
+    │   └── Python/
+    │       └── URTENe_starter_py.py
+    └── Ur5e/
         └── Python/
-            └── URTENe_starter_py.py
+            └── UR5e_starter_py.py
 ```
+### Note
+
+I am in the process of updating the file names to include integers. As seen by UR5e addition.
+
 ## Template Specification
 
 Every template in this repository runs the exact same baseline hardware setup sequence to bring a robot model to a ready state:
