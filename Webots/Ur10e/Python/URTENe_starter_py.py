@@ -4,19 +4,19 @@ from controller import Robot
 robot = Robot()
 timestep = int(robot.getBasicTimeStep())
 
-#Base Joint
+# Base Joint
 ACT1 = robot.getDevice("shoulder_pan_joint")
 
-#Arm Joints
+# Arm Joints
 ACT2 = robot.getDevice("elbow_joint")
 ACT3 = robot.getDevice("shoulder_lift_joint")
 ACT4 = robot.getDevice("wrist_1_joint")
 ACT5 = robot.getDevice("wrist_2_joint")
 
-#End Effector
+# End Effector
 ACT6 = robot.getDevice("wrist_3_joint")
 
-#Sensors
+# Sensors
 SENS1 = robot.getDevice("shoulder_pan_joint_sensor")
 SENS2 = robot.getDevice("elbow_joint_sensor")
 SENS3 = robot.getDevice("shoulder_lift_joint_sensor")
@@ -37,13 +37,16 @@ SENS6.enable(timestep)
 ACTlist = [ACT1, ACT2, ACT3, ACT4, ACT5, ACT6]
 SENSlist = [SENS1, SENS2, SENS3, SENS4, SENS5, SENS6]
 
+for ACT in ACTlist:
+    ACT.setVelocity(0.1)
+
 if all(ACTlist) and all(SENSlist):
     print("Connection Success! Enjoy.")
 
-    # Place Code Here:
-    ACT3.setVelocity(0.1)  # Set safe speed threshold (rad/s)
-    ACT3.setPosition(-1.0)
-
-# Important      
+# Important
 while robot.step(timestep) != -1:
+    # Code to move the robot to a specific position
+    ACT3.setPosition(-1.0)
+    ACT2.setPosition(-1.0)
+
     pass
