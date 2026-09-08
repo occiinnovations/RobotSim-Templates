@@ -79,8 +79,8 @@ Follow these steps to create a new controller in Webots so that you can copy and
 ## Robot Index
 |Robot|About|Company Page|Official Documentation|
 |:---|:---|:---|:---|
-|UR5e|[/docs](https://github.com/occiinnovations/RobotSim-Templates/blob/main/docs/univeralrobots.md)|[Universal Robotics](https://www.universal-robots.com/)|[link](https://www.universal-robots.com/download/manuals-e-seriesur-series/user/ur5e/57/user-manual-ur5e-e-series-sw-57-english-us-en-us/)|
-|UR10e|[/docs](https://github.com/occiinnovations/RobotSim-Templates/blob/main/docs/univeralrobots.md)|[Universal Robotics](https://www.universal-robots.com/)|[link](https://www.universal-robots.com/download/manuals-e-seriesur-series/user/ur10e/59/user-manual-ur10e-e-series-sw-59-english-international-en/)|
+|UR5e|[Overview](https://github.com/occiinnovations/RobotSim-Templates/blob/main/docs/univeralrobots.md)|[Universal Robotics](https://www.universal-robots.com/)|[link](https://www.universal-robots.com/download/manuals-e-seriesur-series/user/ur5e/57/user-manual-ur5e-e-series-sw-57-english-us-en-us/)|
+|UR10e|[Overview](https://github.com/occiinnovations/RobotSim-Templates/blob/main/docs/univeralrobots.md)|[Universal Robotics](https://www.universal-robots.com/)|[link](https://www.universal-robots.com/download/manuals-e-seriesur-series/user/ur10e/59/user-manual-ur10e-e-series-sw-59-english-international-en/)|
 
 ## Versions
 
