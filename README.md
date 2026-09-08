@@ -8,6 +8,8 @@ Universal initialization templates for robot models across simulation environmen
 
 ```text
 STARTERTEMPLATES/
+├── docs/                 
+│   └── universalrobots.md  
 └── Webots/
     ├── Puma560/...
     │   └── Python/...
@@ -28,6 +30,7 @@ STARTERTEMPLATES/
     └── Ur5e/
         └── Python/
             └── UR5e_starter_py.py
+
 ```
 ### Note
 
