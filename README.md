@@ -74,7 +74,7 @@ Follow these steps to create a new controller in Webots so that you can copy and
 
 - [ ] Add an OpenCV + NumPy connection template under each of the Python starter template folders.
 
-- [ ] Expand the repository to include versions designed for Unity and Isaac Sim via ROS2.
+- [ ] Expand the repository to include versions designed other sims such as MuJoco and Gazeobo with ROS2 compatibility.
 
 ## Versions
 
