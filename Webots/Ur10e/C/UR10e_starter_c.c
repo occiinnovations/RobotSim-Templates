@@ -12,24 +12,24 @@ int main(int argc, char **argv)
     wb_robot_init();
 
     // Actuators
-    WbDeviceTag ACT1 = wb_robot_get_device("shoulder_pan_joint");
-    WbDeviceTag ACT2 = wb_robot_get_device("elbow_joint");
-    WbDeviceTag ACT3 = wb_robot_get_device("shoulder_lift_joint");
-    WbDeviceTag ACT4 = wb_robot_get_device("wrist_1_joint");
-    WbDeviceTag ACT5 = wb_robot_get_device("wrist_2_joint");
-    WbDeviceTag ACT6 = wb_robot_get_device("wrist_3_joint");
+    WbDeviceTag act1 = wb_robot_get_device("shoulder_pan_joint");
+    WbDeviceTag act2 = wb_robot_get_device("elbow_joint");
+    WbDeviceTag act3 = wb_robot_get_device("shoulder_lift_joint");
+    WbDeviceTag act4 = wb_robot_get_device("wrist_1_joint");
+    WbDeviceTag act5 = wb_robot_get_device("wrist_2_joint");
+    WbDeviceTag act6 = wb_robot_get_device("wrist_3_joint");
 
     // Position Sensors
-    WbDeviceTag POS1 = wb_robot_get_device("shoulder_pan_joint_sensor");
-    WbDeviceTag POS2 = wb_robot_get_device("elbow_joint_sensor");
-    WbDeviceTag POS3 = wb_robot_get_device("shoulder_lift_joint_sensor");
-    WbDeviceTag POS4 = wb_robot_get_device("wrist_1_joint_sensor");
-    WbDeviceTag POS5 = wb_robot_get_device("wrist_2_joint_sensor");
-    WbDeviceTag POS6 = wb_robot_get_device("wrist_3_joint_sensor");
+    WbDeviceTag pos1 = wb_robot_get_device("shoulder_pan_joint_sensor");
+    WbDeviceTag pos2 = wb_robot_get_device("elbow_joint_sensor");
+    WbDeviceTag pos3 = wb_robot_get_device("shoulder_lift_joint_sensor");
+    WbDeviceTag pos4 = wb_robot_get_device("wrist_1_joint_sensor");
+    WbDeviceTag pos5 = wb_robot_get_device("wrist_2_joint_sensor");
+    WbDeviceTag pos6 = wb_robot_get_device("wrist_3_joint_sensor");
 
     // Lists
-    WbDeviceTag motor_list[] = {ACT1, ACT2, ACT3, ACT4, ACT5, ACT6};
-    WbDeviceTag sensor_list[] = {POS1, POS2, POS3, POS4, POS5, POS6};
+    WbDeviceTag motor_list[] = {act1, act2, act3, act4, act5, act6};
+    WbDeviceTag sensor_list[] = {pos1, pos2, pos3, pos4, pos5, pos6};
 
     bool allPresent = true;
 
@@ -52,8 +52,8 @@ int main(int argc, char **argv)
 
     while (wb_robot_step(TIME_STEP) != -1)
     {
-
-        wb_motor_set_position(ACT1, 3);
+        // code to control the robot goes here
+        wb_motor_set_position(act1, 3);
     };
 
     wb_robot_cleanup();

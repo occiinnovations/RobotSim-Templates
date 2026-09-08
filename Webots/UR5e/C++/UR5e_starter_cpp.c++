@@ -14,12 +14,12 @@ int main()
     int timeStep = 32;
     bool allPresent = true;
 
-    Motor *ACT1 = robot->getMotor("shoulder_pan_joint");
-    Motor *ACT2 = robot->getMotor("elbow_joint");
-    Motor *ACT3 = robot->getMotor("shoulder_lift_joint");
-    Motor *ACT4 = robot->getMotor("wrist_1_joint");
-    Motor *ACT5 = robot->getMotor("wrist_2_joint");
-    Motor *ACT6 = robot->getMotor("wrist_3_joint");
+    Motor *act1 = robot->getMotor("shoulder_pan_joint");
+    Motor *act2 = robot->getMotor("elbow_joint");
+    Motor *act3 = robot->getMotor("shoulder_lift_joint");
+    Motor *act4 = robot->getMotor("wrist_1_joint");
+    Motor *act5 = robot->getMotor("wrist_2_joint");
+    Motor *act6 = robot->getMotor("wrist_3_joint");
 
     PositionSensor *ps1 = robot->getPositionSensor("shoulder_pan_joint_sensor");
     PositionSensor *ps2 = robot->getPositionSensor("elbow_joint_sensor");
@@ -28,7 +28,7 @@ int main()
     PositionSensor *ps5 = robot->getPositionSensor("wrist_2_joint_sensor");
     PositionSensor *ps6 = robot->getPositionSensor("wrist_3_joint_sensor");
 
-    std::list<Motor *> motorList = {ACT1, ACT2, ACT3, ACT4, ACT5, ACT6};
+    std::list<Motor *> motorList = {act1, act2, act3, act4, act5, act6};
     std::list<PositionSensor *> sensorList = {ps1, ps2, ps3, ps4, ps5, ps6};
 
     for (Motor *m : motorList)
