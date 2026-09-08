@@ -79,7 +79,7 @@ Follow these steps to create a new controller in Webots so that you can copy and
 ## Robot Index
 |Robot|About|Company Page|Official Documentation|
 |:---|:---|:---|:---|
-|UR10e|[/docs](https://github.com/occiinnovations/RobotSim-Templates/blob/main/docs/univeralrobots.md)|[Univeral Robotics](https://www.universal-robots.com/)|link|
+|UR10e|[/docs](https://github.com/occiinnovations/RobotSim-Templates/blob/main/docs/univeralrobots.md)|[Universal Robotics](https://www.universal-robots.com/)|link|
 |UR5e|[/docs](https://github.com/occiinnovations/RobotSim-Templates/blob/main/docs/univeralrobots.md)|[Universal Robotics](https://www.universal-robots.com/)|link|
 
 ## Versions
