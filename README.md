@@ -80,7 +80,7 @@ Follow these steps to create a new controller in Webots so that you can copy and
 
 - [ ] Add an OpenCV + NumPy connection template under each of the Python starter template folders.
 
-- [ ] Expand the repository to include versions designed other sims such as MuJoco and Gazeobo with ROS2 compatibility.
+- [ ] Expand the repository to include versions designed other sims such as MuJoCo and Gazebo with ROS2 compatibility.
 
 ## Robot Index
 |Robot|About|Company Page|Official Documentation|
