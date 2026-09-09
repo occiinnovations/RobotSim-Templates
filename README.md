@@ -4,7 +4,7 @@
 
 Universal initialization templates for robot models across simulation environments. 
 
-## Directory Structure
+## Directory Map
 
 ```text
 STARTERTEMPLATES/
@@ -18,18 +18,22 @@ STARTERTEMPLATES/
     ├── Irb4600-40/ ...
     ├── Ur10e/
     │   ├── C/
-    │   │   └── URTENe_starter_c.c
+    │   │   └── URT10e_starter_c.c
     │   ├── C++/
-    │   │   └── URTENe_starter_cpp.cpp
+    │   │   └── UR10e_starter_cpp.cpp
     │   ├── Java/
-    │   │   └── URTENe_starter_java.java
+    │   │   └── UR10e_starter_java.java
     │   ├── MATLAB/
-    │   │   └── URTENe_starter_MLB.m
+    │   │   └── UR10e_starter_mlb.m
     │   └── Python/
-    │       └── URTENe_starter_py.py
+    │       └── UR10e_starter_py.py
     └── Ur5e/
         └── Python/
             └── UR5e_starter_py.py
+            C/
+            └── UR5e_starter_c.c
+            C++/
+            └── UR5e_starter_cpp.cpp
 
 ```
 ### Note
