@@ -11,8 +11,8 @@ STARTERTEMPLATES/
 ├── docs/                 
 │   └── universalrobots.md  
 └── Webots/
-    ├── Puma560/...
-    │   └── Python/...
+    ├── Puma560/
+    │   ├── Python/...
     │   └── Modified_URDF/...
     ├── Mavic2Pro/ ...
     ├── Irb4600-40/ ...
@@ -28,13 +28,12 @@ STARTERTEMPLATES/
     │   └── Python/
     │       └── UR10e_starter_py.py
     └── Ur5e/
+        ├── C/
+        │   └── UR5e_starter_c.c
+        ├── C++/
+        │   └── UR5e_starter_cpp.cpp
         └── Python/
             └── UR5e_starter_py.py
-            C/
-            └── UR5e_starter_c.c
-            C++/
-            └── UR5e_starter_cpp.cpp
-
 ```
 ### Note
 
