@@ -90,5 +90,5 @@ Follow these steps to create a new controller in Webots so that you can copy and
 
 ## Versions
 
-* MATLAB R2025a
+* MATLAB R2025a (Paid License via University)
 * Webots R2025a
