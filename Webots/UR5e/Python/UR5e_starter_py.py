@@ -17,30 +17,30 @@ ACT5 = robot.getDevice("wrist_2_joint")
 ACT6 = robot.getDevice("wrist_3_joint")
 
 # Sensors
-SENS1 = robot.getDevice("shoulder_pan_joint_sensor")
-SENS2 = robot.getDevice("elbow_joint_sensor")
-SENS3 = robot.getDevice("shoulder_lift_joint_sensor")
-SENS4 = robot.getDevice("wrist_1_joint_sensor")
-SENS5 = robot.getDevice("wrist_2_joint_sensor")
-SENS6 = robot.getDevice("wrist_3_joint_sensor")
+sens1 = robot.getDevice("shoulder_pan_joint_sensor")
+sens2 = robot.getDevice("elbow_joint_sensor")
+sens3 = robot.getDevice("shoulder_lift_joint_sensor")
+sens4 = robot.getDevice("wrist_1_joint_sensor")
+sens5 = robot.getDevice("wrist_2_joint_sensor")
+sens6 = robot.getDevice("wrist_3_joint_sensor")
 
 # Timestep
 timestep = int(robot.getBasicTimeStep())
-SENS1.enable(timestep)
-SENS2.enable(timestep)
-SENS3.enable(timestep)
-SENS4.enable(timestep)
-SENS5.enable(timestep)
-SENS6.enable(timestep)
+sens1.enable(timestep)
+sens2.enable(timestep)
+sens3.enable(timestep)
+sens4.enable(timestep)
+sens5.enable(timestep)
+sens6.enable(timestep)
 
 # Connection Confirmation
-ACTlist = [ACT1, ACT2, ACT3, ACT4, ACT5, ACT6]
-SENSlist = [SENS1, SENS2, SENS3, SENS4, SENS5, SENS6]
+actList = [act1, act2, act3, act4, act5, act6]
+sensorList = [sens1, sens2, sens3, sens4, sens5, sens6]
 
-for ACT in ACTlist:
-    ACT.setVelocity(0.1)
+for act in actList:
+    act.setVelocity(0.1)
 
-if all(ACTlist) and all(SENSlist):
+if all(actList) and all(sensorList):
     print("Connection Success! Enjoy.")
 
 
