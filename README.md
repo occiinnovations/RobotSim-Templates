@@ -14,11 +14,13 @@ STARTERTEMPLATES/
     ├── Puma560/
     │   ├── Python/...
     │   └── Modified_URDF/...
-    ├── Mavic2Pro/ ...
+    ├── Mavic2Pro/
+    │    ├── mavic2pro_starter_py.py
+    │    └── pid_test.py
     ├── Irb4600-40/ ...
     ├── Ur10e/
     │   ├── C/
-    │   │   └── URT10e_starter_c.c
+    │   │   └── UR10e_starter_c.c
     │   ├── C++/
     │   │   └── UR10e_starter_cpp.cpp
     │   ├── Java/
@@ -27,13 +29,8 @@ STARTERTEMPLATES/
     │   │   └── UR10e_starter_mlb.m
     │   └── Python/
     │       └── UR10e_starter_py.py
-    └── Ur5e/
-        ├── C/
-        │   └── UR5e_starter_c.c
-        ├── C++/
-        │   └── UR5e_starter_cpp.cpp
-        └── Python/
-            └── UR5e_starter_py.py
+    └── Ur5e/...
+      
 ```
 ### Note
 
