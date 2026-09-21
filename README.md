@@ -2,12 +2,12 @@
 
 # RobotSim-Templates
 
-Universal initialization templates for robot models across simulation environments. 
+Universal initialization templates for robot models across simulation environments.
 
 ## Directory Map
 
 ```text
-STARTERTEMPLATES/
+StarterTemplates/
 ├── docs/                 
 │   └── universalrobots.md  
 └── Webots/
@@ -32,6 +32,7 @@ STARTERTEMPLATES/
     └── Ur5e/...
       
 ```
+
 ### Note
 
 I am in the process of updating the file names to include integers. As seen by UR5e addition.
@@ -40,10 +41,10 @@ I am in the process of updating the file names to include integers. As seen by U
 
 Every template in this repository runs the exact same baseline hardware setup sequence to bring a robot model to a ready state:
 
-*   **Actuator Mapping:** Resolves device string identifiers to target motor objects for every mechanical joint.
-*   **Sensor Mapping:** Resolves device string identifiers to feedback sensor objects for tracking joint states.
-*   **Clock Initialization:** Establishes and synchronizes the baseline hardware simulation timestep.
-*   **Execution Gate:** Builds the baseline conditional `while` loop to contain custom tracking, trajectory math, or controller logic.
+* **Actuator Mapping:** Resolves device string identifiers to target motor objects for every mechanical joint.
+* **Sensor Mapping:** Resolves device string identifiers to feedback sensor objects for tracking joint states.
+* **Clock Initialization:** Establishes and synchronizes the baseline hardware simulation timestep.
+* **Execution Gate:** Builds the baseline conditional `while` loop to contain custom tracking, trajectory math, or controller logic.
 
 ## How to Use
 
@@ -62,24 +63,25 @@ Follow these steps to create a new controller in Webots so that you can copy and
 
 ## Tips To Setup
 
-*   **Change from Generic:** In the Webots scene tree, click on your robot, locate the `controller` field, and change it from `<generic>` to the exact name of your newly created controller.
-*   **Track File Locations:** Always keep track of where your project files are stored on your hard drive so you can easily reference or backup your files.
-*   **Check Syntax Errors Always:** Pay close attention to your compiler or console output and always check for syntax errors before running the simulation.
-*   **Rename Class and Function Names:** When using the **MATLAB** or **Java** templates, make sure to rename the main function name (MATLAB) or the public class name (Java) inside the script to match your local filename exactly.
+* **Change from Generic:** In the Webots scene tree, click on your robot, locate the `controller` field, and change it from `<generic>` to the exact name of your newly created controller.
+* **Track File Locations:** Always keep track of where your project files are stored on your hard drive so you can easily reference or backup your files.
+* **Check Syntax Errors Always:** Pay close attention to your compiler or console output and always check for syntax errors before running the simulation.
+* **Rename Class and Function Names:** When using the **MATLAB** or **Java** templates, make sure to rename the main function name (MATLAB) or the public class name (Java) inside the script to match your local filename exactly.
 
 ## Roadmap
 
-- [x] Include starter templates for all 5 Languages for included robots (Python, Java, MATLAB, C++, C)
+* [x] Include starter templates for all 5 Languages for included robots (Python, Java, MATLAB, C++, C)
 
-- [ ] Expand the repository to include every significant robot.
+* [ ] Expand the repository to include every significant robot.
 
-- [ ] Add an FK/IK solver template alongside each of the starter templates.
+* [ ] Add an FK/IK solver template alongside each of the starter templates.
 
-- [ ] Add an OpenCV + NumPy connection template under each of the Python starter template folders.
+* [ ] Add an OpenCV + NumPy connection template under each of the Python starter template folders.
 
-- [ ] Expand the repository to include versions designed other sims such as MuJoCo and Gazebo with ROS2 compatibility.
+* [ ] Expand the repository to include versions designed other sims such as MuJoCo and Gazebo with ROS2 compatibility.
 
 ## Robot Index
+
 |Robot|About|Company Page|Official Documentation|
 |:---|:---|:---|:---|
 |UR5e|[Overview](https://github.com/occiinnovations/RobotSim-Templates/blob/main/docs/universalrobots.md)|[Universal Robotics](https://www.universal-robots.com/)|[link](https://www.universal-robots.com/download/manuals-e-seriesur-series/user/ur5e/57/user-manual-ur5e-e-series-sw-57-english-us-en-us/)|
