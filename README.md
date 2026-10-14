@@ -9,15 +9,26 @@ Universal initialization templates for robot models across simulation environmen
 ```text
 StarterTemplates/
 ├── docs/                 
-│   └── universalrobots.md  
+│   ├── universalrobots.md  
+│   └── webots.md 
+│
+├── toolbox/
+│   └──xml_parser.py
+│ 
 └── Webots/
     ├── Puma560/
-    │   ├── Python/...
-    │   └── Modified_URDF/...
+    │   ├── C/...
+    │   ├── C++/...
+    │   ├── MATLAB/...
+    │   ├── Modified_URDF/...
+    │   └── Python/...
+    │ 
     ├── Mavic2Pro/
     │    ├── mavic2pro_starter_py.py
     │    └── pid_test.py
-    ├── Irb4600-40/ ...
+    │     
+    ├── Irb4600-40/...
+    │    
     ├── Ur10e/
     │   ├── C/
     │   │   └── UR10e_starter_c.c
@@ -29,6 +40,7 @@ StarterTemplates/
     │   │   └── UR10e_starter_mlb.m
     │   └── Python/
     │       └── UR10e_starter_py.py
+    │   
     └── Ur5e/...
       
 ```
