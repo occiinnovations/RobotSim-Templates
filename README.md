@@ -84,7 +84,7 @@ Follow these steps to create a new controller in Webots so that you can copy and
 
 * [x] Include starter templates for all 5 Languages for included robots (Python, Java, MATLAB, C++, C)
 
-* [ ] Expand the repository to include every significant robot.
+* [x] Expand the repository to include every significant robot.
 
 * [ ] Add an FK/IK solver template alongside each of the starter templates.
 
