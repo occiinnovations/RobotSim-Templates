@@ -88,9 +88,9 @@ Follow these steps to create a new controller in Webots so that you can copy and
 
 * [x] Expand the repository to include every significant robot.
 
-* [ ] Add an FK/IK solver template alongside each of the starter templates.
+* [x] Add an OpenCV + NumPy connection template for Python
 
-* [ ] Add an OpenCV + NumPy connection template under each of the Python starter template folders.
+* [ ] Add an FK/IK solver template alongside each of the starter templates.
 
 * [ ] Expand the repository to include versions designed other sims such as MuJoCo and Gazebo with ROS2 compatibility.
 
