@@ -13,8 +13,9 @@ StarterTemplates/
 │   └── webots.md 
 │
 ├── toolbox/
-│   └──xml_parser.py
-│ 
+│   ├── xml_parser.py --> XML Parser
+│   └── camera.py    --> OpenCV
+│
 └── Webots/
     ├── Puma560/
     │   ├── C/...
