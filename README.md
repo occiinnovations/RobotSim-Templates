@@ -14,7 +14,9 @@ StarterTemplates/
 │
 ├── toolbox/
 │   ├── xml_parser.py --> XML Parser
-│   └── camera.py    --> OpenCV
+│   ├── camera.py    --> OpenCV
+│   │
+│   └── requirements.txt
 │
 └── Webots/
     ├── Puma560/
@@ -43,7 +45,6 @@ StarterTemplates/
     │       └── UR10e_starter_py.py
     │   
     └── Ur5e/...
-      
 ```
 
 ### Note
