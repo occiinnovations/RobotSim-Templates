@@ -89,7 +89,15 @@ Follow these steps to create a new controller in Webots so that you can copy and
 
 * [ ] Expand the repository to include versions designed other sims such as MuJoCo and Gazebo with ROS2 compatibility.
 
-## Robot Index
+## External Links
+
+* Quick C++ Parser: [tinyxml_joint_parser](https://github.com/occiinnovations/tinyxml_joint_parser)
+* URDF Collection: [urdfs](https://github.com/Daniella1/urdf_files_dataset)
+* Webots Official: [webots](https://github.com/cyberbotics/webots)
+
+## Robot Docs
+
+This section serves as a quick information guide on some of the robots or entities concerning this repo. Eventually I will put it in a wiki or proper documentation page.
 
 |Robot|About|Company Page|Official Documentation|
 |:---|:---|:---|:---|
